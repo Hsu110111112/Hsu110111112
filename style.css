@@ -1,5 +1,49 @@
-#container{
-        background-color: rgb(168, 201, 190);
+@import url(normalize.css);
+
+#container {
+        background-color: #EDD382;
         width: 980px;
-        margin:0px auto ; 
+        margin: 0px auto;
+}
+
+h1 {
+        width: 300px;
+        margin: 40px auto;
+        padding: 30px;
+        border: 5px solid #b40a0a;
+        background-color: #F4442E;
+        color: #fff;
+        font-size: 300%;
+        text-align: center;
+        line-height: 1;
+}
+
+h2 {
+        padding: 10px;
+        margin-bottom: 30px;
+        border: 1px dotted #FC9E4F;
+        border-left: 10px solid #FC9E4F;
+        color: #F4412A;
+}
+
+a {
+        color: #312da0
+}
+
+main {
+        margin: 40px;
+        padding: 40px 80px;
+        border: 1px solid #e4946f;
+        background-color: #fff;
+}
+
+.round {
+        border-radius: 50%;
+}
+
+h1,
+header,
+nav,
+footer {
+        text-align: center;
 }
