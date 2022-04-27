@@ -18,9 +18,9 @@ h2{
     margin: auto;
 }
 header{
-    background: #F1E3D3; /*背景顏色*/
-    border-top:2px solid #F1E3D3; /*上方邊框*/
-    border-bottom:2px solid #F1E3D3; /*下方邊框*/
+    background: #E0E1DD; /*背景顏色*/
+    border-top:2px solid #E0E1DD; /*上方邊框*/
+    border-bottom:2px solid #E0E1DD; /*下方邊框*/
     width: 100%;%; /*寬度*/
     
 }
@@ -29,13 +29,13 @@ ul{
     list-style-type: none
 }
 main{
-    background-color: #99C1B9;
+    background-color: #778DA9;
 }
 html {
     height: 100%;
   }
   body {
-    background-color:#99C1B9 ;
+    background-color:#778DA9 ;
     margin: 0;
     min-height: 100%;
     display: grid; /*使用grid排版*/
@@ -43,13 +43,7 @@ html {
   }
   .footer {
     height: auto;
-    background-color: #8f7eb6;
+    background-color: #415A77;
     grid-row-start: 2;/*欄位從第二條橫線開始*/
     grid-row-end: 3;/*欄位從第三條橫線結束*/
   }
-a{
-    font-size: large;
-    text-align: center;
-    color: #85586F;
-    font-weight:bold;
-}
