@@ -1,7 +1,10 @@
 @import url(normalize.css);
-
-#container {
+body{
         background-color: #EDD382;
+        background-image: url(img/123.jpg);
+        background-repeat: repeat-x;
+}
+#container {
         width: 980px;
         margin: 0px auto;
 }
@@ -16,6 +19,11 @@ h1 {
         font-size: 300%;
         text-align: center;
         line-height: 1;
+        border-radius: 50%;
+        text-shadow: 1px 1px 2px #000000;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        background-image: linear-gradient(to bottom, #F4442E, #b40a0a);
+        font-family: 'Limelight', cursive;
 }
 
 h2 {
@@ -25,9 +33,24 @@ h2 {
         border-left: 10px solid #FC9E4F;
         color: #F4412A;
 }
+.h3{
+        padding: 10px;
+        background-color: #fbf9cc;
+        color: #F4412A;
+        border-radius: 10px;
+        box-shadow: 0 0 5px 2px #ffd0ad inset;
+}
+.h3 span{
+        font-weight: normal;
+        
+}
 
 a {
         color: #312da0
+}
+a:hover {
+        color: #4842df;
+        text-decoration: none;
 }
 
 main {
@@ -46,4 +69,28 @@ header,
 nav,
 footer {
         text-align: center;
+}
+.more{
+        text-align: right;
+}
+.more::after {
+        content: url(img/ico_arrow.png);
+        margin-left: 3px;
+        vertical-align: middle;
+}
+section + section{
+        margin-top: 80px;
+}
+a[target="_blank"]::after {
+        content: url(img/ico_blank.png);
+        margin-left: 5px;
+        vertical-align: middle;        
+}
+a[href^="mailto:"]::after {
+        content: url(img/ico_mail.png);
+        margin-left: 5px;
+        vertical-align: middle;
+}
+.menu li {
+        list-style-type: none;
 }
