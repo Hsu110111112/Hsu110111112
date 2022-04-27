@@ -32,6 +32,7 @@ h2 {
         border: 1px dotted #FC9E4F;
         border-left: 10px solid #FC9E4F;
         color: #F4412A;
+        border-radius: 10px
 }
 .h3{
         padding: 10px;
@@ -46,15 +47,16 @@ h2 {
 }
 
 a {
-        color: #312da0
+        color: #ff4d00
 }
 a:hover {
-        color: #4842df;
+        color: #ed7054;
         text-decoration: none;
 }
 
 main {
-        margin: 40px;
+        width: 798px;
+        margin: 40px auto;
         padding: 40px 80px;
         border: 1px solid #e4946f;
         background-color: #fff;
@@ -93,4 +95,31 @@ a[href^="mailto:"]::after {
 }
 .menu li {
         list-style-type: none;
+        display: inline-block;
+        width: 180px;
+        margin: 0 10px;
+}
+.menu a {
+        display: block;
+        padding: 10px;
+        background: #ffb300;
+        border-radius: 8px;
+        color: #fff;
+        text-decoration: none;
+}
+.imgL {
+        float: left;
+        margin-right: 20px;
+}
+.imgR {
+        float: right;
+        margin-left: 20px;
+}
+.clear {
+        clear: both;
+}
+.clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
 }
