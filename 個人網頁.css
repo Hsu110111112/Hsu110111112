@@ -1,0 +1,29 @@
+body{
+    background-color: #DEB6AB;
+}
+.container{
+    width: 980px;
+    margin: 0px auto;
+}
+.shape{
+    max-width: 100%;
+    display: block;
+    text-align: center;
+    background-color: #DEB6AB;
+}
+h1{
+    text-align: center;
+    color: #85586F;
+}
+h2{
+    text-align: center;
+    color: #85586F;
+}
+header{
+    background-color: #DEB6AB;
+    
+}
+ul{
+    text-align: center;
+    list-style-type: none
+}
