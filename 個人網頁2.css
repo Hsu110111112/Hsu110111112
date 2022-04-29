@@ -42,8 +42,23 @@ html {
     grid-template-rows: 1fr auto; /*將上半部設置為一個單位，剩下的部分設為自動高度*/
   }
   .footer {
-    height: auto;
+    height: 90px;
     background-color: #415A77;
+    color: #DEB6AB;
+    text-align: center;
     grid-row-start: 2;/*欄位從第二條橫線開始*/
     grid-row-end: 3;/*欄位從第三條橫線結束*/
+  }
+  .text-v-center {
+    vertical-align: top;
+  }
+  .text-v-center:before {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 100%;
+    vertical-align: middle;
+  }
+  .text-v-center p {
+    display: inline-block;
   }

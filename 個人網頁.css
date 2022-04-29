@@ -42,13 +42,13 @@ html {
     grid-template-rows: 1fr auto; /*將上半部設置為一個單位，剩下的部分設為自動高度*/
   }
   .footer {
-    height: auto;
+    height: 90px;
     background-color: #8f7eb6;
+    text-align: center;
     grid-row-start: 2;/*欄位從第二條橫線開始*/
     grid-row-end: 3;/*欄位從第三條橫線結束*/
   }
 a{
-    font-size: large;
     text-align: center;
     color: #85586F;
     font-weight:bold;
