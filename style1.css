@@ -126,6 +126,7 @@ h1.logo a {
     line-height: 22px;
     float: left;
     letter-spacing: 0.1em;
+    
 }
  
 a.to_nav {
@@ -182,6 +183,7 @@ a.to_nav:focus {
 #primary_nav li a:focus {
     color: #ffffff;
     background: #BF4342;
+
 }
  
 
@@ -235,6 +237,7 @@ footer {
     margin: 0 10px;
 }
 .menu a {
+    
     display: block;
     padding: 10px;
     border-radius: 8px;
