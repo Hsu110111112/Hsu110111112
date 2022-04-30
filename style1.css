@@ -17,6 +17,7 @@ time, mark, audio, video {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+    
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -27,6 +28,8 @@ body {
     line-height: 1;
     font: 16px/1.4em 'PT Sans', sans-serif;;
     color: #000000;
+    background-color: #ffffff;
+    
 }
 ol, ul {
     list-style: none;
@@ -55,16 +58,20 @@ table {
  
 p,
 ul {
-    margin: 0 0 1.5em;
+    margin: 0 0 ;
 }
  
 ul {
-    list-style: disc;
+    list-style: square;
     padding: 0 0 0 20px;
 }
  
 a {
-    color: #1D745A;
+    color: #735751;
+}
+a:hover{
+    color: #54403B;
+    
 }
  
 h1 {
@@ -79,16 +86,17 @@ h2 {
     font-weight: bold;
 }
 .wrapper {
+    background-color: #E7D7C1;
 }
  
 article {
-    border-bottom: 1px solid #d8d8d8;
+    border-bottom: 1px solid #a5a2a2;
     padding: 10px 20px 0 20px;
     margin: 10px 0;
 }
  
 header {
-    background: #9c5a5a;
+    background: #8C1C13;
     padding: 15px 20px;
     margin: auto;
 }
@@ -117,7 +125,7 @@ h1.logo a {
     font-size: 20px;
     line-height: 22px;
     float: left;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.1em;
 }
  
 a.to_nav {
@@ -135,16 +143,22 @@ a.to_nav {
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     border-radius: 2px;
+    
+    }
+
+.menu a {
+    
 }
  
 a.to_nav:hover,
 a.to_nav:focus {
     color: #d03434;
     background: rgb(255, 255, 255);
+
 }
 #primary_nav ul {
     list-style: none;
-    background: #9c5a5a;
+    background: #8C1C13;
     padding: 5px 0;
 }
  
@@ -169,7 +183,7 @@ a.to_nav:focus {
 #primary_nav li a:hover,
 #primary_nav li a:focus {
     color: #ffffff;
-    background: rgb(234, 160, 123);
+    background: #BF4342;
 }
  
 
@@ -179,6 +193,7 @@ footer {
     font-style: italic;
     text-align: center;
     font-size: 14px;
+
 }
 @media only screen and (min-width: 768px) {
  
@@ -215,3 +230,16 @@ footer {
 
 }
 
+.menu li {
+    list-style-type: none;
+    display: inline-block;
+    width: 180px;
+    margin: 0 10px;
+}
+.menu a {
+    display: block;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    text-decoration: none;
+}
