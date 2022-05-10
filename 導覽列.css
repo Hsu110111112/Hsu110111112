@@ -1,0 +1,14 @@
+#menu{
+    width: auto;
+    height: 30px;
+}
+#menu ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+    overflow:auto;
+    overflow: ;
+}
+#menu ul li {
+	float:left;
+}
