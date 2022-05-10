@@ -204,7 +204,7 @@ footer {
 }
 .wrapper {
     position: relative;
-    width: 768px;
+    
     margin: auto;
 }
  
@@ -217,6 +217,7 @@ footer {
  
 #primary_nav li {
     display: inline;
+    
 }
  
 #primary_nav li a {
@@ -233,14 +234,33 @@ footer {
 .menu li {
     list-style-type: none;
     display: inline-block;
-    width: 180px;
+    width: 200px;
     margin: 0 10px;
 }
 .menu a {
     
     display: block;
-    padding: 10px;
+    padding: 20px;
     border-radius: 8px;
     color: #fff;
     text-decoration: none;
+}
+nav{
+    background-color: rgb(255, 154, 154);
+    text-align: right;
+}
+nav li{
+    list-style: none;
+    display: inline-block;  
+}
+nav li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+nav li a:hover{
+    background-color: antiquewhite;
+    color: red;
+    
 }
