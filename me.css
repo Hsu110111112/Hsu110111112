@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+body,ul{
+    margin: 0px;
+
+}
+.container{
+    width: 1000px;
+    margin: auto;
+    height: auto;
+    background-color: #dbc7be;
+}
+
+header{
+    position: sticky;
+    position: -webkit-sticky;
+    top:0;
+}
+nav{
+    background-color: #D95E37
+}
+nav ul{
+    display: flex;
+    justify-content: right;
+}
+nav li{
+    list-style: none;
+    padding: 10px;  
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+nav a:hover{
+    background-color: antiquewhite;
+    color: red;
+    transition: background-color 0.5s linear, color 0.5s ease-in;
+}
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(245, 106, 64,80%);
+}
+.title{
+    text-align: center;
+    font-family: 'Koulen', cursive;
+}
+#postlist ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px;
+}
+#postlist li{
+    list-style-type: none;
+    margin: 10px;
+}
+#postlist img{
+    border-radius: 10%;
+    box-shadow: 5px 5px 10px gray;
+}
+#postlist .emptyitem{
+    width: 200px;
+}
+.gotop{
+    font-size: 50px;
+    color: brown;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+.A ul {
+    list-style-type: none;
+}
+.A a{
+    color: rgb(84, 42, 36);
+}
+.B ul{
+    list-style-type: none;
+}
+.B a{
+    color: rgb(85, 42, 36);
+}
+#banner{
+    display: flex;
+    justify-content: space-between;
+}
