@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+body,ul{
+    margin: 0px;
+}
+header{
+    position: sticky;
+    position: -webkit-sticky;
+    top:0;
+}
+nav{
+    background-color: rgb(210, 73, 96)
+}
+nav ul{
+    display: flex;
+    justify-content: right;
+}
+nav li{
+    list-style: none;
+    padding: 10px;  
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+nav a:hover{
+    background-color: antiquewhite;
+    color: red;
+    transition: background-color 1s linear, color 1s ease-in;
+}
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(253, 160, 153, 0.8);
+}
+.title{
+    text-align: center;
+    font-family: 'Koulen', cursive;
+}
+#postlist ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px;
+}
+#postlist li{
+    list-style-type: none;
+    margin: 10px;
+}
+#postlist img{
+    border-radius: 10%;
+    box-shadow: 5px 5px 10px gray;
+}
+#postlist .emptyitem{
+    width: 200px;
+}
+.gotop{
+    font-size: 50px;
+    color: brown;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+.gotop a{
+    
+}
