@@ -1,9 +1,10 @@
-header{
-    height: 200px;
+#container{
+    height: auto;
     background-color: blanchedalmond;
+
 }
 aside{
-    height: 200px;
+    height: 300px;
     background-color: rgb(221, 202, 174);
     width: 20%;
     float: left;
@@ -12,11 +13,15 @@ section{
     background-color: rgb(178, 163, 141);
     width: 80%;
     float: left;
+    height: 300px;
 }
 footer{
-    height: 100px;
-    background-color: rgb(125, 113, 96);
+    height: 50px;
+    background-color: #D95E37;
+    text-align: center;
     clear: both;
+    width: 1000px;
+    margin: auto;
 }
 .post{
     text-align: center;

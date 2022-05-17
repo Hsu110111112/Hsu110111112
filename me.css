@@ -9,6 +9,9 @@ body,ul{
     height: auto;
     background-color: #dbc7be;
 }
+img{
+    border-radius: 5px;
+}
 
 header{
     position: sticky;
@@ -85,4 +88,14 @@ nav a:hover{
 #banner{
     display: flex;
     justify-content: space-between;
+}
+footer{
+    height: 100px;
+    margin: auto;
+    background-color: rgb(125, 113, 96);
+    clear: both;
+    
+}
+h1{
+    margin: 0;
 }
