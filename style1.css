@@ -30,6 +30,7 @@ body {
     color: #000000;
     background-color: #ffffff;
     width: 1000px;
+    margin: auto;
 }
 ul {
     list-style: none;
