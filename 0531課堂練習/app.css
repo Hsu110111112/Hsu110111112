@@ -108,10 +108,10 @@ body {
 .showcase-area {
   height: 50vh;
   background: linear-gradient(
-      rgba(240, 240, 240, 0.144),
-      rgba(255, 255, 255, 0.336)
+      rgba(255, 255, 255, 0.578),
+      rgba(221, 221, 221, 0.336)
     ),
-    url("https://i.postimg.cc/wT3TQS3V/header-image2.jpg");
+    url("img/LINE_ALBUM_大同育幼院-A班_220531_0.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

@@ -114,11 +114,12 @@ article {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 aside{
     width: 1000px;
     margin: auto;
-    height: 1000px;
+    height: 800px;
     background-color: rgb(255, 240, 171);
     color: black;
     text-align: center;
