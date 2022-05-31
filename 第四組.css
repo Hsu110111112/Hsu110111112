@@ -7,14 +7,17 @@ body,ul{
     width: 1000px;
     margin: auto;
     height: auto;
-    background-color: #dbc7be;
+    background-color: hsl(19, 100%, 86%);
+    text-align: center;
+    font-size: large ;
+    color: green;
 }
 img{
     border-radius: 5px;
 }
 
 header{
-    position: sticky;
+
     position: -webkit-sticky;
     top:0;
 }
@@ -48,6 +51,7 @@ nav a:hover{
 .title{
     text-align: center;
     font-family: 'Koulen', cursive;
+    color: black;
 }
 #postlist ul{
     display: flex;
@@ -99,9 +103,23 @@ footer{
 }
 h1{
     margin: 0;
+    font: 500;
 }
 article {
     border-bottom: 1px solid #a5a2a2;
     padding: 10px 20px 0 20px;
 
+}
+.大同十景{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+aside{
+    width: 1000px;
+    margin: auto;
+    height: 1000px;
+    background-color: rgb(255, 240, 171);
+    color: black;
+    text-align: center;
 }
