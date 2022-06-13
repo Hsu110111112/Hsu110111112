@@ -1,53 +1,107 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 
 <head>
+
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>第四組-大同育幼院</title>
-    <link rel="shortcut icon" href="img/大同實景-草-removebg-preview.png" type="image/x-icon">
+  
+    <link rel="apple-touch-icon" type="image/png" href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png" />
+    <meta name="apple-mobile-web-app-title" content="CodePen">
+
+    <link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico" />
+
+    <link rel="mask-icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111" />
+
+
+    <title>CodePen - Navbar</title>
     <link rel="stylesheet" href="第四組.css">
-    <link rel="stylesheet" href="css/all.css">
+  
+
+    <script>
+        window.console = window.console || function(t) {};
+    </script>
+
+  
+  
+    <script>
+        if (document.location.search.match(/type=embed/gi)) 
+        {window.parent.postMessage("resize", "*");}
+    </script>
+
 </head>
 
-
-    <body>
-        <div class="container">
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="第四組.html">首頁</a></li>
-                    <li><a href="第四組.html">大同十景</a></li>
-                    <li><a href="https://www.ccf.org.tw/60">大同育幼院</a></li>
-                    <li><a href="mailto:dt@ccf.org.tw">聯絡我們</a></li>
-                </ul>
-            </nav>
-            <div class="banner">
-                <img src="img/logo_L-removebg-preview.png" width="150px" height="150px" alt="logo">
-                <div class="title">
-                    <h1>家扶基金會</h1>
-                    <h2>大同育幼院</h2>
+<body translate="no" >
+    <nav>
+        <div class="navbar">
+            <div class="container nav-container">
+                <input class="checkbox" type="checkbox" name="" id="" />
+                <div class="hamburger-lines">
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                    <span class="line line3"></span>
                 </div>
-                <div></div>
-            </div>
-        </header>
-        
-            <div class="大同十景">      
-        <div><img src="img/大同實景-草-removebg-preview.png" width="50 " height="50" alt="大同十景"></div>
-        <div><h1>大同十景</h1></div>
-        <div></div>
-            </div>
 
-        <aside>
-            <div class="大同十景">
-            <div>
-            <img src="img/20151019141717-9900d3ee.png" width="100" height="100" alt="標籤一">
+                <div class="logo">
+                    <h1>大同育幼院</h1>
+                </div>
+                
+                <div class="menu-items">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">blogs</a></li>
+                    <li><a href="#">portfolio</a></li>
+                    <li><a href="#">contact</a></li>
+                </div>
             </div>
-            <img src="img/大同寶寶.png" width="500" height="500" alt="家扶娃娃"></a>
-            <div></div>
         </div>
-        </aside>
-        
+    </nav>
 
-            
+    <p>大同育幼院</p>
+
+    <div class="CSSgal">
+
+        <!-- Don't wrap targets in parent -->
+        <s id="s1"></s> 
+        <s id="s2"></s>
+        <s id="s3"></s>
+        <s id="s4"></s>
+      
+        <div class="slider">
+            <div style="background-image: url(img/1.jpg);">
+                <h2>大同<b>育幼院</b></h2>
+                <p>Responsive Slideshow Gallery created using CSS only<br>by Roko</p>
+            </div>
+
+            <div style="background-image: url(img/2.jpg);">
+                <h2>Slide 2</h2>
+            </div>
+
+            <div style="background-image: url(img/3.jpg);">
+                <h2>Slide 3</h2>
+            </div>
+
+            <div style="background-image: url(img/4.jpg);">
+                <h2>Slide 4</h2>
+            </div>
+        </div>
+        
+        <div class="prevNext">
+            <div><a href="#s4"></a><a href="#s2"></a></div>
+            <div><a href="#s1"></a><a href="#s3"></a></div>
+            <div><a href="#s2"></a><a href="#s4"></a></div>
+            <div><a href="#s3"></a><a href="#s1"></a></div>
+        </div>
+      
+        <div class="bullets">
+            <a href="#s1">1</a>
+            <a href="#s2">2</a>
+            <a href="#s3">3</a>
+            <a href="#s4">4</a>
+        </div>
+      
+      </div>
+  
+
+</body>
+
+</html>
