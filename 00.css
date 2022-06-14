@@ -28,7 +28,7 @@ body {
     line-height: 1;
     font: 16px/1.4em 'PT Sans', sans-serif;;
     color: #000000;
-    background-color: #ffffff;
+    background-color: #E7DECD;
     
     margin: auto;
 }
@@ -97,7 +97,7 @@ article {
 }
  
 header {
-    background: #8C1C13;
+    background: #BBD686;
     padding: 15px 20px;
     margin: auto;
 }
@@ -150,13 +150,13 @@ a.to_nav {
  
 a.to_nav:hover,
 a.to_nav:focus {
-    color: #d03434;
+    color: #abc37b;
     background: rgb(255, 255, 255);
 
 }
 #primary_nav ul {
     list-style: none;
-    background: #8C1C13;
+    background: #BBD686;
     padding: 5px 0;
 }
  
@@ -1884,8 +1884,8 @@ http://stackoverflow.com/a/34696029/383904
 .mySlides{
   display: block;
   float: left;
-  width: 600px;
-  height: 400px;
+  width: 800px;
+  height: 900px;
   margin: 30px 10em;
   margin-right: 3em;
   border-radius: 25px;
@@ -1893,11 +1893,11 @@ http://stackoverflow.com/a/34696029/383904
 .fl{
   margin-top: 5em;
   font-size: 25px;
-  color: rgb(11, 86, 103);
+  color: rgb(30, 24, 108);
 }
 .fl h1{
   font-size: 50px;
-  color: rgb(36, 174, 205);
+  color: rgb(0, 39, 211);
   font-family: 標楷體;
-  font-weight:bold
+  font-weight:bold;
 }
